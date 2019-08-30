@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from '../../logo.svg';
-import './App.scss';
+import React, {Component} from "react";
+import {HashRouter, Switch, Route} from "react-router-dom";
+import Main from "../Main/Main";
+import Map from "../Map/Map";
+import '../../Styles/App.scss';
+import Travels from "../Travels/Travels";
+import Tips from "../Tips/Tips";
+import AboutMe from "../AboutMe/AboutMe";
+import Header from "../Header/Header";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <>
+                <HashRouter>
+                    <Header/>
+                    <Switch>
+                    <Route exact path="/" component={Main}/>
+                    <Route path="/Mapa" component={Map}/>
+                    <Route path="/Podroze" component={Travels}/>
+                    <Route path="/Porady" component={Tips}/>
+                    <Route path="/O_mnie" component={AboutMe}/>
+                    </Switch>
+                </HashRouter>
+            </>
+        )
+    }
 }
 
 export default App;

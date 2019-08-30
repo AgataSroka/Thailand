@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/main_2.jpg");
+  background-size: cover;
+
+  .background {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/main_1.jpg");
+    background-size: cover;
+
+    .tips {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: auto;
+      padding-top: 50px;
+      width: 70%;
+
+
+      button {
+        background-color: white;
+        opacity: 0.5;
+        color: black;
+        border-radius: 10px;
+        height: 200px;
+        width: 250px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        font-family: 'Nothing You Could Do', cursive;
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-weight: 700;
+
+        }
+
+      }
+    }
+  }
+}
+
+
