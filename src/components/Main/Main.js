@@ -8,6 +8,6 @@ class Main extends Component {
             </section>
         )
     }
-};
+}
 
 export default Main;

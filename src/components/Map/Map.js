@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import '../../Styles/Map.scss';
-
+import map_2 from '../../images/map_2.jpg'
+import map_3 from '../../images/map_3.jpg'
+import map_4 from '../../images/map_4.jpg'
 
 class Place extends Component{
     state={
@@ -15,22 +17,20 @@ class Place extends Component{
         this.setState({isVisible:false})
     };
 
-
     render(){
         return (
-
             <>
                 <button className="maps" onMouseMove={this.onMouseMove} onMouseLeave={this.onMouseLeave}>.</button>
-                <div>
+                  <div>
                     {this.state.isVisible &&
-                    <div className="maps_view"><h1>{this.props.title}</h1><p>{this.props.text}</p></div>}
-
-                </div>
+                    <div className="maps_view"><h1>{this.props.title}</h1><p>{this.props.text}</p>
+                    <img src={this.props.picture} style={{width: '250px', height: '150px'}}/>
+                    </div>}
+                  </div>
             </>
         )
     }
 }
-
 
 class Map extends Component {
     static defaultProps = {
@@ -43,7 +43,6 @@ class Map extends Component {
 
     render() {
         return (
-
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
                     defaultCenter={this.props.center}
@@ -52,37 +51,41 @@ class Map extends Component {
                     <Place
                         lat={12.02798804}
                         lng={102.29189873}
-                        title="słoniska"
-                        text="Słonie na plaży"
+                        title="Słonie na plaży"
+                        text="Miejscówka: Koh Chang, plaża Kai Bae"
+                        picture={map_2}
                     />
                     <Place
                         lat={13.7201777}
                         lng={100.523787}
-                        text="Drink na drapaczu chmur"
+                        title="Drink na drapaczu chmur"
+                        text="Miejscówka: Octave Rooftop Lounge & Bar, Bangkok "
                     />
                     <Place
                         lat={9.70431936}
                         lng={100.00802994}
-                        text="Moon Party na plaży"
+                        title="Moon Party na plaży"
+                        text="Miejscówka: Koh Phangan"
                     />
                     <Place
                         lat={7.53333947}
                         lng={99.05018091}
-                        text="Odludne plaże"
+                        title="Odludne plaże"
+                        text="Miejscówka: Koh Lanta"
+                        picture={map_4}
                     />
                     <Place
                         lat={9.4674663}
                         lng={98.830042}
-                        text="Trekking w dżungli"
+                        title="Trekking w dżungli"
+                        text="Miejscówka: Park Narodowy Khao Sok"
+                        picture={map_3}
                     />
                 </GoogleMapReact>
             </div>
         );
     }
-
-
 }
-
 
 export default Map
 
