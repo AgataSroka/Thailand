@@ -19,6 +19,7 @@ class Header extends Component {
                             <li><NavLink exact to="/Podroze">Podroże</NavLink></li>
                             <li><NavLink exact to="/Porady">Porady</NavLink></li>
                             <li><NavLink exact to="/OMnie">O mnie</NavLink></li>
+                            <li><NavLink exact to="/Kontakt">Kontakt</NavLink></li>
                         </ul>
                     </div>
                 </div>

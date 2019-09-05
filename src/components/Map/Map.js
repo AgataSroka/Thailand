@@ -24,7 +24,7 @@ class Place extends Component{
                   <div>
                     {this.state.isVisible &&
                     <div className="maps_view"><h1>{this.props.title}</h1><p>{this.props.text}</p>
-                    <img src={this.props.picture} style={{width: '250px', height: '150px'}}/>
+                    <img src={this.props.picture} style={{width: '300px', height: '200px'}}/>
                     </div>}
                   </div>
             </>

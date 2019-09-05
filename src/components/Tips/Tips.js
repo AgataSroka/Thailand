@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import '../../Styles/Tips.scss';
+import {NavLink} from "react-router-dom";
 
 class Tips extends Component {
     render() {
@@ -7,12 +8,12 @@ class Tips extends Component {
 
             <section className='background'>
         <div className="tips">
-            <button><a href="#"> TANIE BILETY </a></button>
-            <button><a href="#"> CO SPAKOWAĆ </a></button>
-            <button><a href="#"> SZCZEPIENIA </a></button>
-            <button><a href="#"> TRANSPORT NA MIEJSCU </a></button>
-            <button><a href="#"> NA CO UWAŻAĆ </a></button>
-            <button><a href="#"> CZEGO NIE ROBIĆ - CZYLI LOKALNE ZWYCZAJE </a></button>
+            <NavLink exact to="/Tanie_bilety"> <button> TANIE BILETY </button> </NavLink>
+            <NavLink exact to="/Co_spakować"><button> CO SPAKOWAĆ </button></NavLink>
+            <NavLink exact to="/Szczepienia"><button> SZCZEPIENIA </button></NavLink>
+            <NavLink exact to="/Transport_na_miejscu"><button> TRANSPORT NA MIEJSCU </button></NavLink>
+            <NavLink exact to="/Na_co_uważać"><button> NA CO UWAŻAĆ </button></NavLink>
+            <NavLink exact to="/Lokalne_zwyczaje"><button> LOKALNE ZYWCZAJE - CZYLI CZEGO NIE ROBIĆ </button></NavLink>
         </div>
             </section>
         )

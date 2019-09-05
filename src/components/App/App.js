@@ -7,6 +7,8 @@ import Travels from "../Travels/Travels";
 import Tips from "../Tips/Tips";
 import AboutMe from "../AboutMe/AboutMe";
 import Header from "../Header/Header";
+import Contact from "../Contact/Contact";
+
 
 class App extends Component {
     render() {
@@ -20,6 +22,7 @@ class App extends Component {
                     <Route path="/Podroze" component={Travels}/>
                     <Route path="/Porady" component={Tips}/>
                     <Route path="/O_mnie" component={AboutMe}/>
+                    <Route path="/Kontakt" component={Contact}/>
                     </Switch>
                 </HashRouter>
             </>

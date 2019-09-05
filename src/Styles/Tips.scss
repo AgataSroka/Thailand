@@ -9,7 +9,7 @@ body {
 
   .background {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-image: url("../images/main_1.jpg");
     background-size: cover;
 
@@ -21,7 +21,6 @@ body {
       padding-top: 50px;
       width: 70%;
 
-
       button {
         background-color: white;
         opacity: 0.5;
@@ -32,14 +31,11 @@ body {
         margin-bottom: 30px;
         margin-left: 10px;
         font-family: 'Nothing You Could Do', cursive;
-
-        a {
           text-decoration: none;
-          color: black;
           font-size: 20px;
           font-weight: 700;
 
-        }
+
 
       }
     }
