@@ -15,19 +15,25 @@ const useStyles = makeStyles(theme => ({
     root: {
         margin: '40px',
         padding: theme.spacing(3, 2),
-        textAlign: 'center'
+        textAlign: 'center',
+        backgroundColor: 'white',
+        borderRadius: '10px',
+        border: '1px solid black'
     },
     flex:{
         display: 'flex',
         alignItems: 'center'
     },
     topicsWindow: {
-         width: '30%',
+         width: '20%',
          height: '400px',
-         borderRight: '1px solid black'
+         borderRight: '3px solid black',
+
+
+
     },
     chatWindow: {
-         width: '70%',
+         width: '80%',
          height: '400px',
          padding: '20px'
     },
@@ -35,7 +41,8 @@ const useStyles = makeStyles(theme => ({
          width: '85%'
     },
     button: {
-         width: '15%'
+         width: '15%',
+        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     },
 }));
 
@@ -43,10 +50,13 @@ export default function Dashboard() {
 
 
     const classes = useStyles();
+
     const {allChats, sendChatAction, user} = React.useContext(CTX);
     const topics  = Object.keys(allChats);
-    const [textValue, changeTextValue] = React.useState('');
+
     const [activeTopic, changeActiveTopic] = React.useState(topics[0]);
+    const [textValue, changeTextValue] = React.useState('');
+
 
     return (
         <div>
@@ -60,6 +70,7 @@ export default function Dashboard() {
                 <div className={classes.flex}>
                     <div className={classes.topicsWindow}>
                         <List>
+                            <h4>wybierz temat</h4>
                             {
                                 topics.map(topic =>(
                                     <ListItem onClick={e=> changeActiveTopic(e.target.innerText)} key={topic} button>
