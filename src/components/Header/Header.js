@@ -10,7 +10,7 @@ class Header extends Component {
             <header>
                 <div className="container">
                     <div className="logo">
-                        <FontAwesomeIcon icon={faCrow} size="3x" className="faCrow" />
+                        <FontAwesomeIcon icon={faCrow} size="3x" className="faEarlyBirds" />
                         <h1><NavLink exact to="/" style={{'text-decoration': 'none', 'color': 'white'}}> Misja Tajlandia </NavLink></h1>
                     </div>
                     <div className="menu">
@@ -29,3 +29,4 @@ class Header extends Component {
 }
 
 export default Header;
+

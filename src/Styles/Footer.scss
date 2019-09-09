@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+
+  .container{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase ;
+    align-items: center;
+    display: flex;
+    h3, p{
+      padding-top: 40px;
+      padding-right: 90px;
+      padding-left: 30px;
+    }
+    div{
+      padding-top: 30px;
+    }
+  }
+}

@@ -8,42 +8,55 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Chip from '@material-ui/core/Chip';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
-import {CTX} from '../Store/Store'
+import {CTX} from '../Store/Store';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faComments} from "@fortawesome/free-solid-svg-icons";
 
 
 const useStyles = makeStyles(theme => ({
     root: {
-        margin: '40px',
+        width: '80%',
+        margin: 'auto',
+        marginTop: '40px',
         padding: theme.spacing(3, 2),
         textAlign: 'center',
         backgroundColor: 'white',
-        borderRadius: '10px',
-        border: '1px solid black'
+        opacity: '0.9',
+        borderRadius: '20px',
+        border: '1px solid black',
+
+
     },
     flex:{
         display: 'flex',
         alignItems: 'center'
     },
     topicsWindow: {
-         width: '20%',
+         width: '30%',
          height: '400px',
-         borderRight: '3px solid black',
-
-
+         borderRight: '3px solid #FF8E53',
 
     },
     chatWindow: {
-         width: '80%',
+         width: '70%',
          height: '400px',
          padding: '20px'
     },
     chatBox: {
-         width: '85%'
+         width: '85%',
+         fontSize: '20px',
     },
     button: {
          width: '15%',
         background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        border: '1px solid purple',
+        fontSize: '18px',
     },
+    chip: {
+        backgroundColor: '#FF8E53',
+        opacity: '0.8',
+
+    }
 }));
 
 export default function Dashboard() {
@@ -61,16 +74,17 @@ export default function Dashboard() {
     return (
         <div>
             <Paper className={classes.root}>
-                <Typography variant="h4" component="h4">
-                    Chat o Tajlandii :)
+                <Typography variant="h5" component="h5" style={{color: 'purple'}}>
+                    chat o TAJLANDII
+                    <FontAwesomeIcon icon={faComments} size="2x" style={{marginLeft: '20px', color: '#FE6B8B'}}/>
                 </Typography>
-                <Typography variant="h5" component="h5">
-                    {activeTopic}
+                <Typography variant="h7" component="h7">
+                   aktualny temat: {activeTopic}
                 </Typography>
                 <div className={classes.flex}>
                     <div className={classes.topicsWindow}>
                         <List>
-                            <h4>wybierz temat</h4>
+                            <h4 style={{ color: 'purple'}}>wybierz temat</h4>
                             {
                                 topics.map(topic =>(
                                     <ListItem onClick={e=> changeActiveTopic(e.target.innerText)} key={topic} button>

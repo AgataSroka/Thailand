@@ -5,23 +5,35 @@ import io from 'socket.io-client';
 
 const initState = {
     ogólne: [
-        {from: '', message: 'Witaj!'},
+        {from: 'Agata', message: 'Witaj!'},
     ],
     przygotowanie_do_wyjazdu: [
-        {from: '', message: 'Witaj!'},
+        {from: 'Agata', message: 'Witaj!'},
 
     ],
 
 transport: [
-    {from: '', message: 'Witaj!'},
+    {from: 'Agata', message: 'Witaj!'},
 
 ],
     ciekawe_miejsca:
 
 [
-    {from: '', message: 'w'},
+    {from: 'Agata', message: 'Witaj'},
 
-]
+],
+    jak_szukać_noclegu:
+
+        [
+            {from: 'Agata', message: 'Witaj'},
+
+        ],
+    Święta_na_wyspie:
+
+        [
+            {from: 'Agata', message: 'Witaj'},
+
+        ]
 };
 
 function reducer (state, action){
