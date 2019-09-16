@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AgataSroka/Thailand/static/css/main.6bc3410e.chunk.css",
-    "main.js": "/AgataSroka/Thailand/static/js/main.1d07280d.chunk.js",
-    "main.js.map": "/AgataSroka/Thailand/static/js/main.1d07280d.chunk.js.map",
-    "runtime~main.js": "/AgataSroka/Thailand/static/js/runtime~main.f896cbf8.js",
-    "runtime~main.js.map": "/AgataSroka/Thailand/static/js/runtime~main.f896cbf8.js.map",
-    "static/js/2.bf922b9a.chunk.js": "/AgataSroka/Thailand/static/js/2.bf922b9a.chunk.js",
-    "static/js/2.bf922b9a.chunk.js.map": "/AgataSroka/Thailand/static/js/2.bf922b9a.chunk.js.map",
-    "index.html": "/AgataSroka/Thailand/index.html",
-    "precache-manifest.bcac6b82f13bea98f2093a9d3b62bb1e.js": "/AgataSroka/Thailand/precache-manifest.bcac6b82f13bea98f2093a9d3b62bb1e.js",
-    "service-worker.js": "/AgataSroka/Thailand/service-worker.js",
-    "static/css/main.6bc3410e.chunk.css.map": "/AgataSroka/Thailand/static/css/main.6bc3410e.chunk.css.map",
-    "static/media/Tips.scss": "/AgataSroka/Thailand/static/media/main_2.f44727ff.jpg",
-    "static/media/map_2.jpg": "/AgataSroka/Thailand/static/media/map_2.9987ffff.jpg",
-    "static/media/map_3.jpg": "/AgataSroka/Thailand/static/media/map_3.d04080ba.jpg",
-    "static/media/map_4.jpg": "/AgataSroka/Thailand/static/media/map_4.3bbf0b24.jpg"
+    "main.css": "/Thailand/static/css/main.3de39041.chunk.css",
+    "main.js": "/Thailand/static/js/main.6c5ecead.chunk.js",
+    "main.js.map": "/Thailand/static/js/main.6c5ecead.chunk.js.map",
+    "runtime~main.js": "/Thailand/static/js/runtime~main.1043d531.js",
+    "runtime~main.js.map": "/Thailand/static/js/runtime~main.1043d531.js.map",
+    "static/js/2.d04be77c.chunk.js": "/Thailand/static/js/2.d04be77c.chunk.js",
+    "static/js/2.d04be77c.chunk.js.map": "/Thailand/static/js/2.d04be77c.chunk.js.map",
+    "index.html": "/Thailand/index.html",
+    "precache-manifest.221ac343f3dd4dd9bfac6a268ff05fc2.js": "/Thailand/precache-manifest.221ac343f3dd4dd9bfac6a268ff05fc2.js",
+    "service-worker.js": "/Thailand/service-worker.js",
+    "static/css/main.3de39041.chunk.css.map": "/Thailand/static/css/main.3de39041.chunk.css.map",
+    "static/media/Tips.scss": "/Thailand/static/media/main_2.f44727ff.jpg",
+    "static/media/map_2.jpg": "/Thailand/static/media/map_2.9987ffff.jpg",
+    "static/media/map_3.jpg": "/Thailand/static/media/map_3.d04080ba.jpg",
+    "static/media/map_4.jpg": "/Thailand/static/media/map_4.3bbf0b24.jpg"
   }
 }
