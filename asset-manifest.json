@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Thailand/static/css/main.4180a599.chunk.css",
-    "main.js": "/Thailand/static/js/main.a596faa1.chunk.js",
-    "main.js.map": "/Thailand/static/js/main.a596faa1.chunk.js.map",
-    "runtime~main.js": "/Thailand/static/js/runtime~main.1043d531.js",
-    "runtime~main.js.map": "/Thailand/static/js/runtime~main.1043d531.js.map",
-    "static/js/2.d04be77c.chunk.js": "/Thailand/static/js/2.d04be77c.chunk.js",
-    "static/js/2.d04be77c.chunk.js.map": "/Thailand/static/js/2.d04be77c.chunk.js.map",
-    "index.html": "/Thailand/index.html",
-    "precache-manifest.57da36af0de82eee966b5e56be252bbd.js": "/Thailand/precache-manifest.57da36af0de82eee966b5e56be252bbd.js",
-    "service-worker.js": "/Thailand/service-worker.js",
-    "static/css/main.4180a599.chunk.css.map": "/Thailand/static/css/main.4180a599.chunk.css.map",
-    "static/media/Tips.scss": "/Thailand/static/media/main_2.f44727ff.jpg",
-    "static/media/map_2.jpg": "/Thailand/static/media/map_2.9987ffff.jpg",
-    "static/media/map_3.jpg": "/Thailand/static/media/map_3.d04080ba.jpg",
-    "static/media/map_4.jpg": "/Thailand/static/media/map_4.3bbf0b24.jpg"
+    "main.css": "/Website-about-Thailand/static/css/main.4c72c090.chunk.css",
+    "main.js": "/Website-about-Thailand/static/js/main.4a9b57b9.chunk.js",
+    "main.js.map": "/Website-about-Thailand/static/js/main.4a9b57b9.chunk.js.map",
+    "runtime~main.js": "/Website-about-Thailand/static/js/runtime~main.f341b4a7.js",
+    "runtime~main.js.map": "/Website-about-Thailand/static/js/runtime~main.f341b4a7.js.map",
+    "static/js/2.774290d3.chunk.js": "/Website-about-Thailand/static/js/2.774290d3.chunk.js",
+    "static/js/2.774290d3.chunk.js.map": "/Website-about-Thailand/static/js/2.774290d3.chunk.js.map",
+    "index.html": "/Website-about-Thailand/index.html",
+    "precache-manifest.d76bcfbf3ffc4615924830f6142f8d2d.js": "/Website-about-Thailand/precache-manifest.d76bcfbf3ffc4615924830f6142f8d2d.js",
+    "service-worker.js": "/Website-about-Thailand/service-worker.js",
+    "static/css/main.4c72c090.chunk.css.map": "/Website-about-Thailand/static/css/main.4c72c090.chunk.css.map",
+    "static/media/Tips.scss": "/Website-about-Thailand/static/media/main_2.f44727ff.jpg",
+    "static/media/map_2.jpg": "/Website-about-Thailand/static/media/map_2.9987ffff.jpg",
+    "static/media/map_3.jpg": "/Website-about-Thailand/static/media/map_3.d04080ba.jpg",
+    "static/media/map_4.jpg": "/Website-about-Thailand/static/media/map_4.3bbf0b24.jpg"
   }
 }
