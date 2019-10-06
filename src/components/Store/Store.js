@@ -65,7 +65,7 @@ export default function Store(props){
     const [allChats, dispatch] = React.useReducer(reducer, initState);
 
     if(!socket ) {
-        socket = io(':3000');
+        socket = io.connect(':3000');
         socket.on('chat message', function(message){
              dispatch({type:'ZOSTAW_WIADOMOŚĆ', payload: message});
             console.log({message})

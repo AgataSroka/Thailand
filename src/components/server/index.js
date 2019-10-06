@@ -4,14 +4,14 @@ var io = require('socket.io')(http);
 
 
 app.get('/', function(req, res){
-    res.send('<h1>Hello worldzik</h1>');
+    res.send('<h1>Hello world</h1>');
 });
 
-io.on('connection', function(socket){
+io.sockets.on('connection', function(socket){
     console.log('a user connected');
     socket.on('chat message', function (message) {
         console.log('message: ' + JSON.stringify(message));
-        io.emit('chat message', message)
+        io.sockets.emit('chat message', message)
     })
 });
 

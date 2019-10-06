@@ -24,7 +24,7 @@ class Place extends Component{
         return (
             <>
                 <button className="maps" onMouseMove={this.onMouseMove} onMouseLeave={this.onMouseLeave} style={{marginRight: '50px'}}>
-                    <FontAwesomeIcon icon={faBug} size="2x" className="faCrow" style={{color: this.props.color}} /></button>
+                    <FontAwesomeIcon icon={faBug} size="2x" className="faBug" style={{color: this.props.color}} /></button>
                   <div>
                     {this.state.isVisible &&
                     <div className="maps_view"><h1>{this.props.title}</h1><p>{this.props.text}</p>

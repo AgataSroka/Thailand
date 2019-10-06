@@ -6,24 +6,27 @@
 
 footer{
   width: 100vw;
-  height: 100px;
+  height: 80px;
   background-color: black;
 
   .container{
-    width: 80%;
+    width: 60%;
     margin: auto;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase ;
     align-items: center;
     display: flex;
+    white-space: nowrap;
     h3, p{
-      padding-top: 40px;
-      padding-right: 90px;
+      padding-top: 30px;
+      padding-right: 80px;
       padding-left: 30px;
     }
     div{
       padding-top: 30px;
+      margin-left: 90px;
+
     }
   }
 }

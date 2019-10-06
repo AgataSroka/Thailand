@@ -8,11 +8,10 @@ class Footer extends Component{
         return(
             <footer>
                 <div className='container'>
-                    <h3> legenda: </h3>
                     <div><FontAwesomeIcon icon={faBug} size="2x" className="faCrow" style={{color: '#bada55'}} /></div>
                     <p>sprawdzone przeze mnie</p>
                     <div><FontAwesomeIcon icon={faBug} size="2x" className="faCrow" style={{color: 'purple'}} /></div>
-                    <p> na mojej liście "do zbadania" ;)</p>
+                    <p> warte zobaczenia </p>
                 </div>
             </footer>
                   )
