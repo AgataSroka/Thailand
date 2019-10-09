@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/Website-about-Thailand/static/css/main.11b41c62.chunk.css",
-    "main.js": "/Website-about-Thailand/static/js/main.55f64642.chunk.js",
-    "main.js.map": "/Website-about-Thailand/static/js/main.55f64642.chunk.js.map",
+    "main.css": "/Website-about-Thailand/static/css/main.f6bb2817.chunk.css",
+    "main.js": "/Website-about-Thailand/static/js/main.2db09580.chunk.js",
+    "main.js.map": "/Website-about-Thailand/static/js/main.2db09580.chunk.js.map",
     "runtime~main.js": "/Website-about-Thailand/static/js/runtime~main.f341b4a7.js",
     "runtime~main.js.map": "/Website-about-Thailand/static/js/runtime~main.f341b4a7.js.map",
-    "static/js/2.a60811cb.chunk.js": "/Website-about-Thailand/static/js/2.a60811cb.chunk.js",
-    "static/js/2.a60811cb.chunk.js.map": "/Website-about-Thailand/static/js/2.a60811cb.chunk.js.map",
+    "static/js/2.aee4cbbb.chunk.js": "/Website-about-Thailand/static/js/2.aee4cbbb.chunk.js",
+    "static/js/2.aee4cbbb.chunk.js.map": "/Website-about-Thailand/static/js/2.aee4cbbb.chunk.js.map",
     "index.html": "/Website-about-Thailand/index.html",
-    "precache-manifest.82c33bfd6b0455cc591fe8fc036a8bc4.js": "/Website-about-Thailand/precache-manifest.82c33bfd6b0455cc591fe8fc036a8bc4.js",
+    "precache-manifest.4b609d8491f1f70d1fc2b5b7cc8c1403.js": "/Website-about-Thailand/precache-manifest.4b609d8491f1f70d1fc2b5b7cc8c1403.js",
     "service-worker.js": "/Website-about-Thailand/service-worker.js",
-    "static/css/main.11b41c62.chunk.css.map": "/Website-about-Thailand/static/css/main.11b41c62.chunk.css.map",
+    "static/css/main.f6bb2817.chunk.css.map": "/Website-about-Thailand/static/css/main.f6bb2817.chunk.css.map",
     "static/media/Tips.scss": "/Website-about-Thailand/static/media/main_2.f44727ff.jpg",
+    "static/media/map_10.jpg": "/Website-about-Thailand/static/media/map_10.f5d264d1.jpg",
     "static/media/map_2.jpg": "/Website-about-Thailand/static/media/map_2.9987ffff.jpg",
     "static/media/map_3.jpg": "/Website-about-Thailand/static/media/map_3.d04080ba.jpg",
-    "static/media/map_4.jpg": "/Website-about-Thailand/static/media/map_4.3bbf0b24.jpg"
+    "static/media/map_4.jpg": "/Website-about-Thailand/static/media/map_4.3bbf0b24.jpg",
+    "static/media/map_5.jpg": "/Website-about-Thailand/static/media/map_5.1c2b0ba1.jpg",
+    "static/media/map_6.jpg": "/Website-about-Thailand/static/media/map_6.873ee149.jpg",
+    "static/media/map_7.jpg": "/Website-about-Thailand/static/media/map_7.87bd3bae.jpg",
+    "static/media/map_8.jpg": "/Website-about-Thailand/static/media/map_8.82a5053a.jpg",
+    "static/media/map_9.jpg": "/Website-about-Thailand/static/media/map_9.430c40c0.jpg"
   }
 }
