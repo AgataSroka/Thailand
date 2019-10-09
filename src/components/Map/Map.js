@@ -4,6 +4,12 @@ import '../../Styles/Map.scss';
 import map_2 from '../../images/map_2.jpg'
 import map_3 from '../../images/map_3.jpg'
 import map_4 from '../../images/map_4.jpg'
+import map_5 from '../../images/map_5.jpg'
+import map_6 from '../../images/map_6.jpg'
+import map_7 from '../../images/map_7.jpg'
+import map_8 from '../../images/map_8.jpg'
+import map_9 from '../../images/map_9.jpg'
+import map_10 from '../../images/map_10.jpg'
 import Footer from "../Footer/Footer";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBug} from "@fortawesome/free-solid-svg-icons";
@@ -67,6 +73,7 @@ class Map extends Component {
                         lng={100.523787}
                         title="Drink na drapaczu chmur"
                         text="Miejscówka: Octave Rooftop Lounge & Bar, Bangkok "
+                        picture={map_7}
                         color={'#bada55'}
                     />
                     <Place
@@ -74,6 +81,7 @@ class Map extends Component {
                         lng={100.00802994}
                         title="Moon Party na plaży"
                         text="Miejscówka: Koh Phangan"
+                        picture={map_10}
                         color={'#bada55'}
                     />
                     <Place
@@ -97,6 +105,7 @@ class Map extends Component {
                         lng={97.6655709}
                         title="Nocny Targ"
                         text="Miejscówka: Chiang Mai, Night Street Food"
+                        picture={map_8}
                         color={'purple'}
                     />
                     <Place
@@ -104,6 +113,7 @@ class Map extends Component {
                         lng={98.7412238}
                         title="Urokliwe plaże"
                         text="Miejscówka: Ko Samet"
+                        picture={map_5}
                         color={'purple'}
                     />
                     <Place
@@ -111,6 +121,7 @@ class Map extends Component {
                         lng={98.9302769}
                         title="Tiger Kingdam"
                         text="Miejscówka: Chiang Mai"
+                        picture={map_10}
                         color={'purple'}
                     />
                     <Place
@@ -118,6 +129,7 @@ class Map extends Component {
                         lng={99.9572888}
                         title="Pływający targ"
                         text="Miejscówka: Damnoen Saduak,Prowincja Ratchaburi"
+                        picture={map_9}
                         color={'purple'}
                     />
                     <Place
@@ -125,6 +137,7 @@ class Map extends Component {
                     lng={99.2815519}
                     title="Lazurowa grota"
                     text="Miejscówka: Ko Libong"
+                    picture={map_10}
                     color={'#bada55'}
                 />
                     <Place
@@ -132,6 +145,7 @@ class Map extends Component {
                         lng={99.2355219}
                         title="Snorekling"
                         text="Miejscówka: Ko Kradan"
+                        picture={map_6}
                         color={'purple'}
                     />
 
