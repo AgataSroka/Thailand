@@ -7,7 +7,7 @@ import Store from '../Store/Store';
 
 function Contact() {
     return (
-        <div>
+        <div className='contact'>
             <Store>
             <Dashboard/>
             </Store>

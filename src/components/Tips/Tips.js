@@ -1,6 +1,7 @@
 import React, {Component} from "react";
-import '../../Styles/Tips.scss';
+import '../../Styles/Tips/Tips.scss';
 import {NavLink} from "react-router-dom";
+import Behavior from "./Behavior/Behavior";
 
 class Tips extends Component {
     render() {

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import '../../../Styles/Tips/Transport.scss';
+import '../../../Styles/Tips/Local.scss';
 
-class Transport extends Component{
+class Local extends Component{
     render(){
         return(
             <>
-                <div className='transport'>
+                <div className='local'>
                     <h1> strona w budowie </h1>
                 </div>
             </>
@@ -13,4 +13,4 @@ class Transport extends Component{
         )
     }
 }
-export default Transport
+export default Local

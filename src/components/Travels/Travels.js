@@ -1,10 +1,17 @@
 import React, {Component} from "react";
-import Header from "../Header/Header";
+import '../../Styles/Travels.scss';
+
 
 
 class Travels extends Component {
     render() {
-        return null
+        return (
+            <>
+                <div className='travels'>
+                    <h1> strona w budowie <br/> zapraszam później </h1>
+                </div>
+            </>
+        )
     }
 }
 

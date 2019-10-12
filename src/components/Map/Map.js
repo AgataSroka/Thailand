@@ -10,7 +10,7 @@ import map_7 from '../../images/map_7.jpg'
 import map_8 from '../../images/map_8.jpg'
 import map_9 from '../../images/map_9.jpg'
 import map_10 from '../../images/map_10.jpg'
-import Footer from "../Footer/Footer";
+import FooterMap from "../FooterMap/FooterMap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBug} from "@fortawesome/free-solid-svg-icons";
 
@@ -151,7 +151,7 @@ class Map extends Component {
 
                 </GoogleMapReact>
             </div>
-            <Footer/>
+            <FooterMap/>
         </>
         );
     }

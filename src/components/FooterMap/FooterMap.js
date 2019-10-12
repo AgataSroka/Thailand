@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import '../../Styles/Footer.scss';
+import '../../Styles/FooterMap.scss';
 import {faBug} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-class Footer extends Component{
+class FooterMap extends Component{
     render(){
         return(
             <footer>
@@ -18,4 +18,4 @@ class Footer extends Component{
 
     }
 }
-export default Footer
+export default FooterMap
