@@ -4,16 +4,15 @@ import Dashboard from '../Dashboard/Dashboard';
 import Store from '../Store/Store';
 
 
-
 function Contact() {
     return (
         <div className='contact'>
             <Store>
-            <Dashboard/>
+                <Dashboard/>
             </Store>
         </div>
     )
-    
+
 }
 
 export default Contact

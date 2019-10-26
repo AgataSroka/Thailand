@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import '../../Styles/Travels.scss';
 
 
-
 class Travels extends Component {
     render() {
         return (

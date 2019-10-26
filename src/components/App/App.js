@@ -24,18 +24,18 @@ class App extends Component {
                 <HashRouter>
                     <Header/>
                     <Switch>
-                    <Route exact path="/" component={Main}/>
-                    <Route path="/Mapa" component={Map}/>
-                    <Route path="/Podroze" component={Travels}/>
-                    <Route path="/Porady" component={Tips}/>
-                    <Route path="/Na_co_uważać" component={Behavior}/>
+                        <Route exact path="/" component={Main}/>
+                        <Route path="/Mapa" component={Map}/>
+                        <Route path="/Podroże" component={Travels}/>
+                        <Route path="/Porady" component={Tips}/>
+                        <Route path="/Na_co_uważać" component={Behavior}/>
                         <Route path="/Tanie_bilety" component={Tickets}/>
                         <Route path="/Co_spakować" component={Packing}/>
                         <Route path="/Szczepienia" component={Vaccinations}/>
                         <Route path="/Transport_na_miejscu" component={Transport}/>
                         <Route path="/Lokalne_zwyczaje" component={Local}/>
-                    <Route path="/O_mnie" component={AboutMe}/>
-                    <Route path="/Kontakt" component={Contact}/>
+                        <Route path="/O_mnie" component={AboutMe}/>
+                        <Route path="/Kontakt" component={Contact}/>
                     </Switch>
                     <FooterMain/>
                 </HashRouter>

@@ -1,32 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-footer{
+.footer_map {
+  position: absolute;
   width: 100vw;
-  height: 80px;
   background-color: black;
+  bottom: 0;
 
-  .container{
-    width: 60%;
+  .container {
+    width: 60vw;
     margin: auto;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase ;
-    align-items: center;
     display: flex;
-    white-space: nowrap;
-    h3, p{
-      padding-top: 30px;
-      padding-right: 80px;
-      padding-left: 30px;
-    }
-    div{
-      padding-top: 30px;
-      margin-left: 90px;
+    justify-content: space-between;
+    position: relative;
 
+    div {
+      display: inline;
+      margin-left: 5.625rem;
+      margin-top: 0.5rem;
+      z-index: 1;
+    }
+
+    p {
+      color: white;
+      padding: 1rem 5rem 1rem 1.875rem;
+      z-index: 1;
     }
   }
+
 }

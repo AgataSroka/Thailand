@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import '../../../Styles/Tips/Local.scss';
 
-class Local extends Component{
-    render(){
-        return(
+class Local extends Component {
+    render() {
+        return (
             <>
                 <div className='local'>
                     <h1> strona w budowie </h1>
@@ -13,4 +13,5 @@ class Local extends Component{
         )
     }
 }
+
 export default Local

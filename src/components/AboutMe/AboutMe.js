@@ -1,10 +1,15 @@
 import React, {Component} from "react";
-import Header from "../Header/Header";
+import "../../Styles/About_me.scss";
 
 
 class AboutMe extends Component {
     render() {
-        return <Header/>
+        return (
+                <div className='about_me'>
+                    <h1> strona w budowie </h1>
+                </div>
+
+        )
     }
 }
 

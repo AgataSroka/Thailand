@@ -1,26 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-  .maps {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: yellow;
-    color: black;
-    font-size: 15px;
+
+.maps {
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background-color: yellow;
+  color: black;
+  font-size: 1rem;
 }
-  .maps_view{
-    width: 350px;
-    height: 270px;
-    border: 1px solid darkslategray;
-    border-radius: 5px;
-    background-color: white;
-    opacity: 0.8;
-    text-align: center;
-    font-size: 15px;
-    h1{font-size: 20px;
-    }
+
+.maps_view {
+  width: 25rem;
+  height: 18rem;
+  border: 0.3rem solid yellowgreen;
+  border-radius: 1.5rem;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 1rem;
+
+  h1 {
+    font-size: 1.25rem;
+    margin-top: 0.3rem;
   }
+
+  p {
+    margin-top: 0.3rem;
+  }
+}
 
