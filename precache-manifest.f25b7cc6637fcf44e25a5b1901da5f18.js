@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9692827966076f473a554c0a8f209aef",
+    "revision": "f931c21745d21106448071bde5336632",
     "url": "/Website-about-Thailand/index.html"
   },
   {
-    "revision": "d115d7a2fc136e50a45f",
+    "revision": "348ece04e0dd16a918a1",
     "url": "/Website-about-Thailand/static/css/main.9becbaaa.chunk.css"
   },
   {
-    "revision": "bd97a539b1c0d4a7efee",
-    "url": "/Website-about-Thailand/static/js/2.1e45dca3.chunk.js"
+    "revision": "8f893ef6b3106164b35a",
+    "url": "/Website-about-Thailand/static/js/2.78948214.chunk.js"
   },
   {
-    "revision": "d115d7a2fc136e50a45f",
-    "url": "/Website-about-Thailand/static/js/main.d524d12f.chunk.js"
+    "revision": "348ece04e0dd16a918a1",
+    "url": "/Website-about-Thailand/static/js/main.cb541d95.chunk.js"
   },
   {
-    "revision": "68a8ed64f13386da0e7c",
-    "url": "/Website-about-Thailand/static/js/runtime~main.f341b4a7.js"
+    "revision": "bb094ec102a5fa34d274",
+    "url": "/Website-about-Thailand/static/js/runtime~main.f7e03799.js"
   },
   {
     "revision": "f44727ffb16674f9dbee3bedfc2565ed",
