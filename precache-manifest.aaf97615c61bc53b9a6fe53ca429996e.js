@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f519a675bdbb67fc8dbc0677b6b5538a",
+    "revision": "b836a861504ebce42d2756c6b4ce69bd",
     "url": "/Website-about-Thailand/index.html"
   },
   {
-    "revision": "71acea3d928908de5d15",
-    "url": "/Website-about-Thailand/static/css/main.9080da3a.chunk.css"
+    "revision": "fccde8a289d77f54d992",
+    "url": "/Website-about-Thailand/static/css/main.cf094e63.chunk.css"
   },
   {
     "revision": "4ef0ba9f68ab47364566",
     "url": "/Website-about-Thailand/static/js/2.aa72a740.chunk.js"
   },
   {
-    "revision": "71acea3d928908de5d15",
+    "revision": "fccde8a289d77f54d992",
     "url": "/Website-about-Thailand/static/js/main.3805dd2b.chunk.js"
   },
   {
