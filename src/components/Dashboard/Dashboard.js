@@ -16,9 +16,9 @@ import {faComments} from "@fortawesome/free-solid-svg-icons";
 const useStyles = makeStyles(theme => ({
     root: {
         width: '80%',
-        height: '540px',
+        height: '29rem',
         margin: 'auto',
-        marginTop: '35px',
+        marginTop: '5%',
         padding: theme.spacing(3, 2),
         textAlign: 'center',
         backgroundColor: 'white',
@@ -34,13 +34,13 @@ const useStyles = makeStyles(theme => ({
     },
     topicsWindow: {
         width: '30%',
-        height: '380px',
+        height: '19rem',
         borderRight: '3px solid #FF8E53',
 
     },
     chatWindow: {
         width: '70%',
-        height: '380px',
+        height: '19rem',
         padding: '20px'
     },
     chatBox: {
