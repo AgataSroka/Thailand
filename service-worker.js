@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Website-about-Thailand/precache-manifest.5429ff836d6937c3f9b16cf14c7db39b.js"
+  "/Website-about-Thailand/precache-manifest.ba94e725020cfb96b9052d1459930da0.js"
 );
 
 self.addEventListener('message', (event) => {
