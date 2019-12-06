@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+body{
+
   background-image: url("../../images/main_2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,6 +37,7 @@ body {
       font-size: 1.25rem;
       font-weight: 700;
       cursor: pointer;
+      border: 1px solid mediumvioletred;
     }
   }
 }

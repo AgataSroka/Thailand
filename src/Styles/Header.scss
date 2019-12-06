@@ -69,11 +69,10 @@ header {
 
         li {
           display: block;
-          justify-content: space-around;
+          justify-content: space-between;
           margin-top: 1.6rem;
           white-space: nowrap;
         }
-
 
         a {
           text-decoration: none;
@@ -84,6 +83,9 @@ header {
           color: mediumvioletred;
         }
 
+        a:focus {
+          color:mediumvioletred;
+        }
       }
     }
   }
@@ -94,14 +96,28 @@ header {
   ul {
     position: absolute;
     right: 0;
-    width: 10rem;
+    width: 8rem;
     flex-direction: column;
     background-color: black;
     background-position: center;
-    opacity: 0.8;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
 
     li {
       text-align: center;
+      font-size: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: mediumvioletred;
+    }
+
+    a:focus {
+      color:mediumvioletred;
     }
   }
 }
@@ -110,5 +126,13 @@ header {
   header {
     display: block;
     white-space: normal;
+
+    ul{
+      margin-top: 4rem;
+      padding-bottom: 1rem;
+      li{
+        font-size: 1rem;
+      }
+    }
   }
 }

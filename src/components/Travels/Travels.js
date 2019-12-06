@@ -7,7 +7,7 @@ class Travels extends Component {
         return (
             <>
                 <div className='travels'>
-                    <h1> strona w budowie <br/> zapraszam później </h1>
+                    <h1> strona w budowie </h1>
                 </div>
             </>
         )
