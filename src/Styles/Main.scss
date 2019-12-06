@@ -5,11 +5,23 @@
 }
 
 .new {
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+  height: 85vh;
   background-image: url("../images/main_2.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-
+@media screen and (max-width: 1200px) {
+  .new {
+    width: 100vw;
+    height: auto;
+    background-image: url("../images/main_2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 

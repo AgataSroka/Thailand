@@ -12,6 +12,7 @@ header {
   opacity: 0.8;
   color: white;
   justify-content: center;
+  text-align: center;
 
   .container {
     width: 80vw;
@@ -50,6 +51,7 @@ header {
     }
 
     .menu {
+      width: 40rem;
       display: inline;
       margin-left: 9rem;
       position: absolute;
@@ -57,25 +59,56 @@ header {
 
       ul {
         display: flex;
-        width: 42rem;
         text-transform: uppercase;
         justify-items: flex-start;
         justify-content: space-between;
         list-style-type: none;
         font-size: 1.25rem;
+        text-align: center;
+
 
         li {
+          display: block;
+          justify-content: space-around;
           margin-top: 1.6rem;
           white-space: nowrap;
-
         }
+
 
         a {
           text-decoration: none;
           color: white;
         }
 
+        a:hover {
+          color: mediumvioletred;
+        }
+
       }
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  ul {
+    position: absolute;
+    right: 0;
+    width: 10rem;
+    flex-direction: column;
+    background-color: black;
+    background-position: center;
+    opacity: 0.8;
+
+    li {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and(max-width: 600px) {
+  header {
+    display: block;
+    white-space: normal;
   }
 }

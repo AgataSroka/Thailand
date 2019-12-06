@@ -7,6 +7,11 @@
 body {
   background-image: url("../../images/main_2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 85vh;
+  width: 100vw;
 
   .tips {
     display: flex;
@@ -16,7 +21,6 @@ body {
     padding-top: 5%;
     width: 70%;
     height: 70vh;
-    cursor: pointer;
 
     button {
       background-color: white;
@@ -31,6 +35,7 @@ body {
       text-decoration: none;
       font-size: 1.25rem;
       font-weight: 700;
+      cursor: pointer;
     }
   }
 }
